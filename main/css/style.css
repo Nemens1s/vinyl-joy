@@ -19,8 +19,13 @@ body {
   color: #E5DCCA;
   font-family: 'Source Sans Pro', serif;
 }
-.record-info p {
+.record-info a {
   font-size: 1.3rem;
+  color: #E5DCCA;
+  margin-bottom: 1.2rem;
+}
+.record-info a:active {
+  color: #E5DCCA;
 }
 .shopping-basket {
   width: 1.5rem;
