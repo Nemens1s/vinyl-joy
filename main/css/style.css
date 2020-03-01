@@ -6,10 +6,10 @@ body {
   font-family: 'Cookie', '';
 }
 .logo a {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .logo p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 #vinyl-record {
   width: 1.5rem;
@@ -20,6 +20,7 @@ body {
 #navLinks .nav-item .nav-link {
   color: #E5E5E5;
   font-size: 2rem;
+  font-family: 'Source Sans Pro';
 }
 #mainNavbar {
   background: #1B1414;
