@@ -1,4 +1,28 @@
 body {
   background: #650F0F;
 }
+.logo {
+  color: #E5E5E5;
+  font-family: 'Cookie', '';
+}
+.logo a {
+  font-size: 3rem;
+}
+.logo p {
+  font-size: 2rem;
+}
+#vinyl-record {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.2rem;
+  margin-left: 0.1rem;
+}
+#navLinks .nav-item .nav-link {
+  color: #E5E5E5;
+  font-size: 2rem;
+}
+#mainNavbar {
+  background: #1B1414;
+  color: #E5E5E5;
+}
 /*# sourceMappingURL=style.css.map */
