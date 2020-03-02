@@ -38,6 +38,27 @@ body {
   font-family: 'Source Sans Pro', serif;
   font-size: 1.3rem;
 }
+.cart-image {
+  width: 17rem;
+  height: 17rem;
+  margin-left: 1rem;
+}
+.purchase-info {
+  font-family: 'Source Sans Pro', serif;
+  color: #E5DCCA;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+@media (max-width: 767px) {
+  .vinyl-info {
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .vinyl-info {
+    margin-bottom: 11.8rem;
+  }
+}
 hr {
   background: #E5DCCA;
 }
@@ -55,5 +76,10 @@ hr {
 #mainNavbar {
   background: #1B1414;
   color: #E5E5E5;
+}
+#cart-message {
+  font-family: 'Source Sans Pro', serif;
+  color: #E5DCCA;
+  font-size: 2.7rem;
 }
 /*# sourceMappingURL=style.css.map */
