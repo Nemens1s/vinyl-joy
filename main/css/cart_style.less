@@ -1,5 +1,6 @@
 @import "palette";
 
+@button-border-radius: 16px;
 
 .cart-image {
   width: 17rem;
@@ -18,6 +19,39 @@
   color: @font-main-color;
   font-family: 'Source Sans Pro', serif;
   font-size: 2rem;
+}
+
+.back-button{
+  background: @back-button-color;
+  color: @font-main-color;
+  border-radius: @button-border-radius;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1rem;
+}
+
+.back-button:active{
+  color: @font-main-color;
+}
+
+.back-button:visited{
+  color: @font-main-color;
+}
+
+.continue-button{
+  color: @font-main-color;
+  border-radius: @button-border-radius;
+  background: @continue-button-color;
+  font-family: 'Source Sans Pro', serif;
+  font-size: 1rem;
+  max-height: 40px;
+  white-space: nowrap;
+}
+
+.continue-button:active{
+  color: @font-main-color;
+}
+.continue-button:visited{
+  color: @font-main-color;
 }
 
 @media (max-width: 767px) {
@@ -39,3 +73,4 @@
   color: @font-main-color;
   font-size: 2.7rem;
 }
+
