@@ -1,0 +1,36 @@
+@import "palette";
+
+
+.customer_info{
+  background: transparent;
+  border: 2px solid @font-main-color;
+}
+
+.customer_info::placeholder{
+  color: @font-main-color;
+}
+
+.confirm-button {
+  width: 40%;
+  color: @font-main-color;
+  background: @continue-button-color;
+  border-radius: 16px;
+}
+
+.cancel-button{
+  width: 40%;
+  color: @font-main-color;
+  background: @back-button-color;
+  border-radius: 16px;
+}
+
+@media (max-width: 767px) {
+  .confirm-button{
+    width: 75%;
+  }
+
+  .cancel-button{
+    width: 75%;
+  }
+}
+
